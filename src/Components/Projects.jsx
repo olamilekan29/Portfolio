@@ -66,11 +66,11 @@
 
 
 
-import Cofee from '../assets/images/cofee.png'
-import Certify from '../assets/images/certify.png'
-import Redstore from '../assets/images/redstore.png'
-import Bumpa from '../assets/images/bumpa.png'
-import Bizland from '../assets/images/bizland.png'
+import Cofee from '../assets/images/Cofee.png'
+import Certify from '../assets/images/Certify.png'
+import Redstore from '../assets/images/Redstore.png'
+import Bumpa from '../assets/images/Bumpa.png'
+import Bizland from '../assets/images/Bizland.png'
 
 const Projects = () => {
   const proj = [

@@ -51,7 +51,7 @@ const Skills = () =>{
     
       <div className="grid items-center justify-center   py-6 bg-gradient-to-br from-blue-700 to-gray-900 ">
         <h1 className="flex items-center justify-center text-white font-bold text-3xl pb-15"><CiLaptop /> Skills & Expertise </h1>
-        <div className="p-6 w-110  bg-white/10 backdrop-blur-md border border-white/20 rounded-xl shadow-lg hover:shadow-xl hover:shadow-blue-500/20 transition-all duration-300">
+        <div className="p-6 max-w-110  w-full px-3  bg-white/10 backdrop-blur-md border border-white/20 rounded-xl shadow-lg hover:shadow-xl hover:shadow-blue-500/20 transition-all duration-300">
           {skills.map((skill =>(
             <div key={skill.id} className="space-y-4">
               <div className="flex items-center justify-between mb-4 ">

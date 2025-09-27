@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="bg-gradient-to-br from-gray-800 to-blue-800 md:px-10 px-5">
       <div className="h-18 items-center flex justify-between">
-        <div className="text-3xl text-white font-bold px-4">Logo</div>
+        <div className="text-3xl text-white font-bold px-4">Farouq</div>
 
         {/* Desktop Menu */}
         <div className="hidden sm:block">

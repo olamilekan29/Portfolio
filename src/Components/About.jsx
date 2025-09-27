@@ -2,7 +2,7 @@ import myAnime from "../assets/images/myAnime.png";
 
 const About = () => {
   return(
-    <div className="grid md:px-20 md:py-20 px-10 py-10 bg-gradient-to-br from-gray-900 to-blue-700">
+    <div className="grid md:px-20 md:py-20 px-5 py-10 bg-gradient-to-br from-gray-900 to-blue-700">
      
         <h1 className="flex items-center text-2xl font-bold text-white text-bottom mb-16 font-[Open_Sans]">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user w-7 h-7 text-blue-400"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
@@ -18,7 +18,7 @@ const About = () => {
           </div>
        </div>
       <div >
-        <img className="w-400 h-70 rounded-lg shadow-lg hover:scale-105 transition md:pr-10" src={myAnime} alt="" />
+        <img className="w-400 md:h-70 rounded-lg shadow-lg hover:scale-105 transition md:pr-10" src={myAnime} alt="" />
       </div>
       </div>
 

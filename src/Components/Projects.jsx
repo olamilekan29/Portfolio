@@ -90,7 +90,7 @@ const Projects = () => {
       details:'A responsive business landing page built with React and Tailwind CSS, featuring a modern design to enhance user experience.',
 
       link: 'https://biz-land-farouq.vercel.app/',
-      span: 'React, Tailwind CSS',
+      span: 'HTML, CSS and JAVASCRIPT',
     },
     {
       id: '3',
@@ -108,7 +108,7 @@ const Projects = () => {
       name: 'Red Store',
       details:'A responsive e-commerce website built with HTML and CSS, featuring a modern design to enhance user experience.',
       link: 'https://github.com/olamilekan29/farouq-red-store',
-      span: 'React, Tailwind CSS',
+      span: 'HTML, CSS and JAVASCRIPT',
     },
 
     {
@@ -122,16 +122,16 @@ const Projects = () => {
   ]
 
   return (
-    <div className="bg-gradient-to-br from-blue-700 to-gray-900 py-20">
+    <div className="bg-gradient-to-br from-blue-700 to-gray-900 py-20 px-5">
       
       <div className="flex flex-wrap justify-center gap-8">
         {proj.map((project) => (
           <div
             key={project.id}
-            className="w-100 text-white bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 hover:shadow-xl transition duration-300"
+            className="w-100 text-white h-112 bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 hover:shadow-xl transition duration-300"
           >
-            <img src={project.image} className="w-full h-48 object-cover" alt={project.name} />
-            <div className="bg-gray-800 px-6 py-8 rounded-b-xl">
+            <img src={project.image} className="w-full md:48  object-cover" alt={project.name} />
+            <div className="bg-gray-800 px-6 py-6 rounded-b-xl">
               <h2 className="font-semibold mb-4 text-2xl">{project.name}</h2>
               <h3 className="text-gray-300 mb-4">{project.details}</h3>
               <div className="flex flex-wrap gap-2 mb-4 text-sm">

@@ -92,7 +92,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="px-20 py-20 bg-gradient-to-br from-gray-900 to-blue-800">
+    <div className="MD:px-20 md:py-20 px-5 py-15 bg-gradient-to-br from-gray-900 to-blue-800">
       <h1 className="flex items-center text-white font-semibold text-2xl">
         <CiMail /> Get in touch
       </h1>

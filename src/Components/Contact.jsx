@@ -62,6 +62,7 @@
 
 import { FaGithub } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
+import { FaLinkedin } from "react-icons/fa";
 import emailjs from "emailjs-com";
 import { useRef } from "react";
 
@@ -117,6 +118,14 @@ const Contact = () => {
                 Github
               </a>
             </span>
+
+            <span className="flex items-center gap-3 hover:text-blue-400">
+            <FaLinkedin />
+              <a href="https://www.linkedin.com/in/farouq-olaleye-715521389?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">
+                Linkedln
+              </a>
+            </span>
+
           </div>
         </div>
 

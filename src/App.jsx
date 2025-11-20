@@ -8,6 +8,9 @@ import Soft from "./Components/Soft"
 const App = () => {
   return(
     <>
+
+  
+
     <Header/>
     <section id="Home">
       <Home/>
@@ -26,7 +29,7 @@ const App = () => {
       <section id="Contact">
         <Contact/>
       </section>
-     
+      
       
       
      

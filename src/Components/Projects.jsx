@@ -71,6 +71,8 @@ import Certify from '../assets/images/Certify.png'
 import Redstore from '../assets/images/Redstore.png'
 import Bumpa from '../assets/images/Bumpa.png'
 import Bizland from '../assets/images/Bizland.png'
+import casa from '../assets/images/casalanca.png'
+
 
 const Projects = () => {
   const proj = [
@@ -91,6 +93,14 @@ const Projects = () => {
 
       link: 'https://biz-land-farouq.vercel.app/',
       span: 'HTML, CSS and JAVASCRIPT',
+    },
+    {
+      id: '6',
+      image: casa,
+      name: 'Casastore',
+      details: 'A responsive e-commerce website built with React and Tailwind CSS, featuring a modern design to enhance user experience.',
+      link: 'https://casastore.vercel.app/',
+      span: 'React, Tailwind CSS',
     },
     {
       id: '3',

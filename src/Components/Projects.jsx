@@ -72,7 +72,7 @@ import Redstore from '../assets/images/Redstore.png'
 import Bumpa from '../assets/images/Bumpa.png'
 import Bizland from '../assets/images/Bizland.png'
 import casa from '../assets/images/casalanca.png'
-
+import arc from '../assets/images/arc.png'
 
 const Projects = () => {
   const proj = [
@@ -127,6 +127,14 @@ const Projects = () => {
       name: 'Bumpa Website',
       details: 'A responsive Bumpa website built with React and Tailwind CSS, featuring a modern design to enhance user experience.',
       link: 'https://bumpa-olamilekan.vercel.app/',
+      span: 'React, Tailwind CSS',
+    },
+    {
+      id: '6',
+      image: arc,
+      name: ' Architecture Website',
+      details: 'A responsive Architecture website built with React and Tailwind CSS, featuring a modern design to enhance user experience.',
+      link: 'https://succint-architecture.vercel.app/',
       span: 'React, Tailwind CSS',
     },
   ]
